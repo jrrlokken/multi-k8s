@@ -14,9 +14,14 @@
   margin-bottom: 20px;
 }
 
-a {
+.App-header a {
   text-decoration: none;
   color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 @keyframes App-logo-spin {
