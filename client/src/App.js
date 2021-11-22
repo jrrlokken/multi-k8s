@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h3>Fibonacci Calculator</h3>
+          <h3>*️⃣ Fibonacci Calculator v2 *️⃣</h3>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
