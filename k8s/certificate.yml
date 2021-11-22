@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: fibonacci-joshualokken-tech-tls
+spec:
+  secretName: fibonacci-joshualokken-tech
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: fibonacci.joshualokken.tech
+  dnsNames:
+    - fibonacci.joshualokken.tech
