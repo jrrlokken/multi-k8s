@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const OtherPage = () => {
   return (
     <div>
-      I'm Kevin Costner in one of his western roles!
+      I was updated on the feature branch!
       <Link to="/">Go Back Home</Link>
     </div>
   );
